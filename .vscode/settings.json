@@ -107,7 +107,7 @@
     "editor.copyWithSyntaxHighlighting": true,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.inlineSuggest.enabled": true,
-  
+
     // File management
     "files.exclude": {
       "**/.git": true,
@@ -120,16 +120,16 @@
       "*.ts": "typescript",
       "*.tsx": "typescriptreact"
     },
-  
+
     // Breadcrumbs and minimap
     "breadcrumbs.enabled": true,
     "breadcrumbs.symbolPath": "last",
-  
+
     // Zen Mode settings
     "zenMode.centerLayout": true,
     "zenMode.hideLineNumbers": false,
     "zenMode.silentNotifications": true,
-  
+
     // Better search experience
     "search.exclude": {
       "**/node_modules": true,
@@ -138,29 +138,43 @@
       "**/coverage": true
     },
     "search.smartCase": true,
-  
+
     // JavaScript/TypeScript specific
     "javascript.updateImportsOnFileMove.enabled": "always",
     "javascript.suggest.completeFunctionCalls": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "typescript.suggest.completeFunctionCalls": true,
-  
+
+    // JavaScript IntelliSense improvements
+    "javascript.suggest.enabled": true,
+    "javascript.suggestionActions.enabled": true,
+    "javascript.preferences.quoteStyle": "single",
+    "javascript.format.enable": true,
+    "javascript.format.semicolons": "insert",
+    "javascript.preferences.importModuleSpecifier": "relative",
+    "javascript.inlayHints.functionLikeReturnTypes": true,
+    "javascript.inlayHints.parameterNames": "all",
+    "javascript.inlayHints.parameterTypes": true,
+    "javascript.inlayHints.variableTypes": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.validate.enable": true,
+
     // Better debugging experience
     "debug.inlineValues": "on",
     "debug.toolBarLocation": "docked",
     "debug.showBreakpointsInOverviewRuler": true,
-  
+
     // Terminal improvements
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
     "terminal.integrated.tabs.enabled": true,
-  
+
     // Auto-save and formatting
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
     },
-  
+
     // Better Git experience
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
@@ -169,7 +183,7 @@
       "publish": true,
       "sync": true
     },
-  
+
     // Live Server settings
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
@@ -193,4 +207,3 @@
     "liveServer.settings.ChromeDebuggingAttachment": false,
     "liveServer.settings.showOnStatusbar": true
   }
-  
